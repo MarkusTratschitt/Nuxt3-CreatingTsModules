@@ -1,0 +1,9 @@
+{
+  // https://nuxt.com/docs/guide/concepts/typescript
+  "extends": "./.nuxt/tsconfig.json",
+  "compilerOptions": {
+    "module": "ES2020",
+    "target": "ES2015"
+  },
+  "exclude": ["node_modules"]
+}
